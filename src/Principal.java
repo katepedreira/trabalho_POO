@@ -15,12 +15,35 @@ public class Principal {
         Cargo a = new Cargo();
         a.setNome("Atendente");
 
+        Endereco e = new Endereco();
+        e.setCep("00000000");
+        e.setLogradouro("Rua A");
+        e.setNumero("500");
+        e.setCidade("Juiz de Fora");
+        e.setUf("MG");
+
+        Endereco e2 = new Endereco();
+        e2.setCep("11111111");
+        e2.setLogradouro("Rua B");
+        e2.setNumero("600");
+        e2.setCidade("Rio de Janeiro");
+        e2.setUf("RJ");
+
+
+        Cliente c = new Cliente();
+        c.setNome("Kate");
+        c.addEndereco(e);
+        c.addEndereco(e2);
+
 
         Funcionario f = new Funcionario();
         f.addCargo(m);
         f.addCargo(a);
 
         f.imprimeListaCargos();
+
+        c.listarEnderecos();
+
 
 
 

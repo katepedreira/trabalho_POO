@@ -56,5 +56,15 @@ public class Endereco {
         this.uf = uf;
     }
 
+    public void imprimeEndereco() {
+        System.out.println("CEP: " + this.cep);
+        System.out.println("Logradouro: " + this.logradouro);
+        System.out.println("Numero: " + this.numero);
+        System.out.println("Complemento: " + this.complemento);
+        System.out.println("Cidade: " + this.cidade);
+        System.out.println("UF: " + this.uf);
+
+    }
+
 
 }
