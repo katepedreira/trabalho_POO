@@ -3,6 +3,7 @@ public abstract class Conta {
     private String numero;
     private Debito debito;
     private Credito credito;
+    private Cliente cliente;
 
 
     public Conta() {
@@ -32,5 +33,13 @@ public abstract class Conta {
 
     public void setCredito(Credito credito) {
         this.credito = credito;
+    }
+
+    public Cliente getCliente() {
+        return cliente;
+    }
+
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
     }
 }

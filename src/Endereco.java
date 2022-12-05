@@ -55,4 +55,6 @@ public class Endereco {
     public void setUf(String uf) {
         this.uf = uf;
     }
+
+
 }

@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6470138a-7b11-4a8e-9733-360d101d0af0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContaCorrente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ContaPoupanca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Credito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Debito.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Endereco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Funcionario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IUsuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pessoa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cargo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cargo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Funcionario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Funcionario.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +43,20 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Principal" />
+      <module name="katherine_trabalho_POO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Principal" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

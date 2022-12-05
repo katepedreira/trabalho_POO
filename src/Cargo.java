@@ -2,6 +2,7 @@ public class Cargo {
 
     private String nome;
 
+
     public String getNome() {
         return nome;
     }
@@ -9,4 +10,6 @@ public class Cargo {
     public void setNome(String nome) {
         this.nome = nome;
     }
+
+
 }
