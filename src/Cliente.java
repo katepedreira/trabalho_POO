@@ -42,6 +42,7 @@ public class Cliente extends Pessoa {
         System.out.println("Complemento do cliente "+ this.getNome() + ": " + e.getComplemento());
         System.out.println("Cidade do cliente "+ this.getNome() + ": " + e.getCidade());
         System.out.println("UF do cliente "+ this.getNome() + ": " + e.getUf());
+        System.out.println("-----------------------------------------------------------------");
     }
 
 

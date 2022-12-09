@@ -1,15 +1,14 @@
+import java.util.ArrayList;
+import java.util.Collection;
+
 public abstract class Conta {
 
     private String numero;
-    private Debito debito;
-    private Credito credito;
     private Cliente cliente;
 
+    private Collection<Credito> listaCredito = new ArrayList<Credito>();
 
-    public Conta() {
-        this.setDebito(new Debito());
-        this.setCredito(new Credito());
-    }
+    private Collection<Debito> listaDebito = new ArrayList<Debito>();
 
     public String getNumero() {
         return numero;
@@ -19,27 +18,33 @@ public abstract class Conta {
         this.numero = numero;
     }
 
-    public Debito getDebito() {
-        return debito;
-    }
-
-    public void setDebito(Debito debito) {
-        this.debito = debito;
-    }
-
-    public Credito getCredito() {
-        return credito;
-    }
-
-    public void setCredito(Credito credito) {
-        this.credito = credito;
-    }
-
     public Cliente getCliente() {
         return cliente;
     }
 
     public void setCliente(Cliente cliente) {
         this.cliente = cliente;
+    }
+
+    public void addCredito(Credito credito) {
+        this.listaCredito.add(credito);
+
+    }
+
+    public void addDebito(Debito debito) {
+        this.listaDebito.add(debito);
+
+    }
+
+    public void depositar(Double valor) {
+        Credito credito = new Credito(this);
+        credito.setValor(valor);
+        this.addCredito(credito);
+    }
+
+    public void sacar(Double valor) {
+        Debito debito = new Debito(this);
+        debito.setValor(valor);
+        this.addDebito(debito);
     }
 }

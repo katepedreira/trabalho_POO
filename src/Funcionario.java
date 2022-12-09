@@ -25,11 +25,5 @@ public class Funcionario extends Pessoa {
         this.listaCargos.add(cargo);
     }
 
-    public ArrayList<Cargo> getListaCargos() {
-        return listaCargos;
-    }
 
-    public void imprimeListaCargos() {
-        System.out.println("Cargos: " + this.listaCargos);
-    }
 }
