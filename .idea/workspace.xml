@@ -5,9 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6470138a-7b11-4a8e-9733-360d101d0af0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Aplicacao2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aplicacao3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Aplicacao4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PrincipalAdicoes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Aplicacao1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aplicacao1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cargo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cargo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Principal2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Principal2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Credito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Credito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Debito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Debito.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,16 +48,37 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Principal2">
-    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Principal" />
+  <component name="RunManager" selected="Application.Aplicacao4">
+    <configuration name="Aplicacao1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aplicacao1" />
       <module name="katherine_trabalho_POO" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Principal2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Principal2" />
+    <configuration name="Aplicacao2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aplicacao2" />
+      <module name="katherine_trabalho_POO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Aplicacao3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aplicacao3" />
+      <module name="katherine_trabalho_POO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Aplicacao4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Aplicacao4" />
+      <module name="katherine_trabalho_POO" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrincipalAdicoes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PrincipalAdicoes" />
       <module name="katherine_trabalho_POO" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -58,8 +86,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Principal2" />
-        <item itemvalue="Application.Principal" />
+        <item itemvalue="Application.Aplicacao4" />
+        <item itemvalue="Application.Aplicacao3" />
+        <item itemvalue="Application.Aplicacao2" />
+        <item itemvalue="Application.Aplicacao1" />
+        <item itemvalue="Application.PrincipalAdicoes" />
       </list>
     </recent_temporary>
   </component>

@@ -16,9 +16,16 @@ public class Cargo {
     }
 
     public void addFuncionario(Funcionario funcionario) {
-        this.listaFuncionarios.add(funcionario);
+        this.getListaFuncionarios().add(funcionario);
 
     }
 
 
+    public ArrayList<Funcionario> getListaFuncionarios() {
+        return listaFuncionarios;
+    }
+
+    public void setListaFuncionarios(ArrayList<Funcionario> listaFuncionarios) {
+        this.listaFuncionarios = listaFuncionarios;
+    }
 }

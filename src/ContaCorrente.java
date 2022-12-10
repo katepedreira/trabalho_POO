@@ -39,12 +39,12 @@ public class ContaCorrente extends Conta {
         }
     }
 
-    public void transferir(ContaCorrente contaCorrente , Double valor) {
+    public void transferir(Conta conta , Double valor) {
         if (this.saldoCC() < valor) {
             System.out.println("Saldo Insuficiente");
         } else {
             this.sacar(valor);
-            contaCorrente.depositar(valor);
+            conta.depositar(valor);
         }
     }
 

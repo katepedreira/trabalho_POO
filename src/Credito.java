@@ -5,7 +5,7 @@ public class Credito {
     private Conta conta;
 
     public Credito(Conta conta) {
-        this.conta = conta;
+        this.setConta(conta);
 
     }
 
@@ -18,4 +18,11 @@ public class Credito {
     }
 
 
+    public Conta getConta() {
+        return conta;
+    }
+
+    public void setConta(Conta conta) {
+        this.conta = conta;
+    }
 }

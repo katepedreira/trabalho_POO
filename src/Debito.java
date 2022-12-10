@@ -5,7 +5,7 @@ public class Debito {
     private Conta conta;
 
     public Debito(Conta conta) {
-        this.conta = conta;
+        this.setConta(conta);
 
     }
 
@@ -15,5 +15,13 @@ public class Debito {
 
     public void setValor(Double valor) {
         this.valor = valor;
+    }
+
+    public Conta getConta() {
+        return conta;
+    }
+
+    public void setConta(Conta conta) {
+        this.conta = conta;
     }
 }
