@@ -5,7 +5,12 @@ public class Funcionario extends Pessoa {
 
     private Double salario;
 
-    private ArrayList<Cargo> listaCargos = new ArrayList<>();
+    private ArrayList<Cargo> listaCargos = new ArrayList<Cargo>();
+
+
+    public Funcionario(Cargo cargo) {
+        this.listaCargos.add(cargo);
+    }
 
 
 

@@ -36,8 +36,7 @@ public class Principal {
         c.addEndereco(e2);
 
 
-        Funcionario f = new Funcionario();
-        f.addCargo(m);
+        Funcionario f = new Funcionario(m);
         f.addCargo(a);
 
 

@@ -6,6 +6,7 @@ public class Endereco {
     private String complemento;
     private String cidade;
     private String uf;
+    private Cliente cliente;
 
 
     public String getCep() {
@@ -67,4 +68,11 @@ public class Endereco {
     }
 
 
+    public Cliente getCliente() {
+        return cliente;
+    }
+
+    public void setCliente(Cliente cliente) {
+        this.cliente = cliente;
+    }
 }
