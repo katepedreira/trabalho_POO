@@ -28,6 +28,14 @@ public class Principal2 {
         System.out.println(cc2.saldoCC());
         cc2.sacar(160.0);;
         System.out.println(cc2.saldoCC());
+        cc2.depositar(100.0);
+        System.out.println(cc2.saldoCC());
+
+        cc.transferir(cc2, 300.0);
+        System.out.println(cc2.saldoCC());
+        System.out.println(cc.saldoCC());
+
+
 
 
     }
