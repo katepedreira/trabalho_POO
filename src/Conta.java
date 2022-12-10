@@ -6,9 +6,9 @@ public abstract class Conta {
     private String numero;
     private Cliente cliente;
 
-    private Collection<Credito> listaCredito = new ArrayList<Credito>();
+    public Collection<Credito> listaCredito = new ArrayList<Credito>();
 
-    private Collection<Debito> listaDebito = new ArrayList<Debito>();
+    public Collection<Debito> listaDebito = new ArrayList<Debito>();
 
     public String getNumero() {
         return numero;
@@ -47,4 +47,6 @@ public abstract class Conta {
         debito.setValor(valor);
         this.addDebito(debito);
     }
+
+
 }
