@@ -26,6 +26,8 @@ public class Aplicacao4 {
         cp1.setCliente(c4);
         cp1.setRentabilidadeMensal(1.0);
 
+        c4.addConta(cp1);
+
         cp1.depositar(1000.0);
 
         cc2.transferir(cp1, 500.0 );

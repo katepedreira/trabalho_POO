@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6470138a-7b11-4a8e-9733-360d101d0af0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Aplicacao2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aplicacao3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Aplicacao4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrincipalAdicoes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Aplicacao1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Aplicacao1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cargo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cargo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Credito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Credito.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Debito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Debito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Principal2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PrincipalAdicoes.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
