@@ -30,7 +30,7 @@ public class ContaPoupanca extends Conta {
         return (this.totalCreditosCP() - this.totalDebitosCP());
     }
 
-    public void sacarCP(Double valor) {
+    public void sacar(Double valor) {
         if (saldoCP() < valor) {
             System.out.println("Saldo Insuficiente");
         } else {

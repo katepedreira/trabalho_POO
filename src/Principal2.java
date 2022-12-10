@@ -16,7 +16,7 @@ public class Principal2 {
         cp.sacar(100.0);
         cp.depositar(20.0);
         System.out.println(cp.saldoCP());
-        cp.sacarCP(20.0);
+        cp.sacar(150.0);
         System.out.println(cp.saldoCP());
 
         ContaCorrente cc2 = new ContaCorrente();
@@ -26,7 +26,8 @@ public class Principal2 {
         cc2.depositar(60.0);
         cc2.sacar(40.0);
         System.out.println(cc2.saldoCC());
-        cc2.sacarCC(250.0);;
+        cc2.sacar(160.0);;
+        System.out.println(cc2.saldoCC());
 
 
     }

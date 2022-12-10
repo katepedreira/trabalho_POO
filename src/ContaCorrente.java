@@ -31,7 +31,7 @@ public class ContaCorrente extends Conta {
         return (this.totalCreditosCC() - this.totalDebitosCC() + this.limite);
     }
 
-    public void sacarCC(Double valor) {
+    public void sacar(Double valor) {
         if (saldoCC() < valor) {
             System.out.println("Saldo Insuficiente");
         } else {
