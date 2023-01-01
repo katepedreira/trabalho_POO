@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class Funcionario extends Pessoa {
+public class Funcionario extends Pessoa implements IUsuario {
 
     private Double salario;
 

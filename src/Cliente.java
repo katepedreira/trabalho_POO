@@ -4,7 +4,7 @@ import java.util.Iterator;
 import java.util.Set;
 import java.util.HashSet;
 
-public class Cliente extends Pessoa {
+public class Cliente extends Pessoa implements IUsuario {
 
     private boolean vip;
 
